@@ -1,76 +1,109 @@
+/* Estilos Gerais */
 body {
-  background-color: black;
+  background-color: rgb(14, 13, 13);
   font-family: monospace;
-  font-size: 17px;
+  font-size: 1.16rem;
   color: white;
   margin: 0;
-  padding: 0;
-  overflow-y: scroll;
-  overflow-x: hidden;
 }
 
-#logo_menu {
-  height: 63px;
-  margin: auto;
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
 }
 
-#menu {
-  width: 100vw;
-  height: 63px;
-  padding: 7px;
-  margin-bottom: 35px;
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+}
+
+img {
+  max-width: 100%;
 }
 
 a {
   text-decoration: none;
-  color: unset;
+}
+/* Estilos Gerais */
+
+/* Menu de Navegação */
+#menu {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 5px 10px;
+  border-bottom: 1px solid rgb(20, 19, 19);
+  margin-bottom: 40px;
 }
 
-ul {
-  float: right;
-  list-style-type: none;
+#logo_menu {
+  height: 63px;
+  grid-column: 1;
 }
 
-li {
-  float: left;
-  margin-right: 56px;
+#links-menu {
+  grid-column: 2;
+  display: flex;
+  gap: 40px;
 }
 
-li:hover {
+nav {
+  place-self: center end;
+}
+
+nav a {
+  color: #fff;
+  border: 2px solid rgb(14, 13, 13);
+  padding: 10px 15px;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #00c4cc;
+}
+/* Menu de Navegação */
+
+/* Conteúdo Principal da página */
+.principal {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 25px;
+}
+
+.post {
+  display: grid;
+  gap: 10px;
+  height: 500px;
+  background-color: #fff;
+  padding: 20px;
   color: #00c4cc;
-  padding: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
-  border: 2px solid #00c4cc;
+  border-radius: 4px;
 }
+/* Conteúdo Principal da página */
 
+/* rodapé do site */
+footer p {
+  margin-top: 40px;
+  padding: 30px 60px;
+  text-align: center;
+  border-top: 1px solid rgb(20, 19, 19);
+}
+/* rodapé do site */
+
+/* Acesso ao chat no canto inferior direito */
 #logo_chat {
   height: 70px;
+  border: 2px solid #ccd;
   border-radius: 40px;
   position: fixed;
   bottom: 15px;
   right: 15px;
+  z-index: 3;
 }
-
-@media screen and (max-width: 900px) {
-  ul {
-    float: none;
-  }
-
-  li {
-    float: none;
-    margin-bottom: 15px;
-  }
-
-  li:active {
-    color: #00c4cc;
-    padding: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border: 2px solid #00c4cc;
-  }
-
-  #logo_chat {
-    height: 3em;
-  }
-}
+/* Acesso ao chat no canto inferior direito */

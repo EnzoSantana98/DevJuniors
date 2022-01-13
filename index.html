@@ -1,26 +1,59 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
     <title>Dev Juniors</title>
-    <link rel="stylesheet" href="./CSS/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <header id="menu">
+      <a href="index.html">
+        <img id="logo_menu" src="Imagens/Logo.png" alt="Logo Dev Juniors" />
+      </a>
 
-    <div id="menu">
-        <a href="index.html"><img id="logo_menu" src="Imagens/Logo.png" alt="Logo Dev Juniors"></a>
-        <ul>
-            <a href="index.html"><li>Home</li></a>
-            <a href="posts.html"><li>Posts</li></a>
-            <a href="cursos.html"><li>Cursos</li></a>
-            <a href="comunidade.html"><li>Comunidade</li></a>
-            <a href="jobs.html"><li>Jobs</li></a>
+      <nav aria-label="Primária">
+        <ul id="links-menu">
+          <li><a href="/">Home</a></li>
+          <li><a href="/">Posts</a></li>
+          <li><a href="/">Cursos</a></li>
+          <li><a href="/">Comunidade</a></li>
+          <li><a href="/">Jobs</a></li>
         </ul>
-    </div>
+      </nav>
+    </header>
 
-    <div>
-        <a href="chat.html"><img id="logo_chat" src="Imagens/Logo_Chat.png" alt="Logo do chat"></a>
-    </div>
-</body>
+    <main class="principal">
+      <a href="/">
+        <article class="post">
+          <h3>Dicas de HTML</h3>
+          <img src="Imagens/Prog_HTML.jpg" alt="código escrito" />
+          <p>
+            Neste post vamos dar algumas dicas relacionadas ao HTML e essa
+            linguagem de Marcação tão presente na WEB
+          </p>
+        </article>
+      </a>
+
+      <a href="/">
+        <article class="post">
+          <h3>10 ideias de projetos em JS</h3>
+          <img src="Imagens/Prog.jpg" alt="código escrito em Java Script" />
+          <p>
+            Neste post vamos dar ideias de projetos para seu portifóleo de
+            programador que podem ser feitos com JavaScript
+          </p>
+        </article>
+      </a>
+    </main>
+
+    <span>
+      <a href="/">
+        <img id="logo_chat" src="Imagens/Logo_Chat.png" alt="Logo do chat" />
+      </a>
+    </span>
+
+    <footer>
+      <p>DevJuniors. Todos os direitos reservados.</p>
+    </footer>
+  </body>
 </html>
