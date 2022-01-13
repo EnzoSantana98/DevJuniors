@@ -1,0 +1,76 @@
+body {
+  background-color: black;
+  font-family: monospace;
+  font-size: 17px;
+  color: white;
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#logo_menu {
+  height: 63px;
+  margin: auto;
+}
+
+#menu {
+  width: 100vw;
+  height: 63px;
+  padding: 7px;
+  margin-bottom: 35px;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+ul {
+  float: right;
+  list-style-type: none;
+}
+
+li {
+  float: left;
+  margin-right: 56px;
+}
+
+li:hover {
+  color: #00c4cc;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 2px solid #00c4cc;
+}
+
+#logo_chat {
+  height: 70px;
+  border-radius: 40px;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
+
+@media screen and (max-width: 900px) {
+  ul {
+    float: none;
+  }
+
+  li {
+    float: none;
+    margin-bottom: 15px;
+  }
+
+  li:active {
+    color: #00c4cc;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 2px solid #00c4cc;
+  }
+
+  #logo_chat {
+    height: 3em;
+  }
+}
