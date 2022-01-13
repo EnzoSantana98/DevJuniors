@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+</head>
+<body>
+
+    <h1 onclick='conhecer()'>Dev Juniors</h1>
+    <h3>Esta página tem como objetivo relatar, compartilhar, informar, istruir, adimirar e principalmente "desabafar", o
+        dia-a-dia de quem tá começando a aprender programação ou está nos primeiros momentos da Carreira DEV!</h3>
+    
+    <li>Você já aprendeu a programar? <input type="button" value="Informar" onclick="aprendeu()"></p></li>
+    <li>Você está estudando programação né? <input type="button" value="Informar" onclick="estudando()"></li>
+    
+    <script>
+        function conhecer(){
+            alert('Olá, seja bem-vindo!')
+            var nome = prompt('Qual é o seu nome')
+            confirm(`Certo ${nome}, aproveite nosso site!`)
+        }
+        
+        function aprendeu() {
+            var aprendeu = confirm('E aí? Aprendeu?')
+            if (aprendeu === true){
+                alert('Muito Bom!')
+            }else {
+                alert('Tá na hora de aprender!')
+            }
+        }
+
+        function estudando() {
+            var estudando = confirm('Está estudando mesmo né?')
+            if (estudando === true){
+                alert(`Aí sim hein!`)
+            }else {
+                alert('Tome vergonha na cara e começe a estudar logo viu!')
+            }
+        }
+    </script>
+</body>
+</html>
