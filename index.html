@@ -6,13 +6,13 @@
     <link rel="stylesheet" href="CSS/style.css" />
   </head>
   <body>
-    <header id="menu">
-      <a href="index.html">
-        <img id="logo_menu" src="Imagens/Logo.png" alt="Logo Dev Juniors" />
+    <header class="menu">
+      <a class="logo-menu" href="index.html">
+        <img src="Imagens/Logo.png" alt="Logo Dev Juniors" />
       </a>
 
       <nav aria-label="Primária">
-        <ul id="links-menu">
+        <ul class="links-menu">
           <li><a href="/">Home</a></li>
           <li><a href="/">Posts</a></li>
           <li><a href="/">Cursos</a></li>
@@ -22,28 +22,63 @@
       </nav>
     </header>
 
-    <main class="principal">
-      <a href="/">
-        <article class="post">
+    <main>
+      <h2 class="titulo">Posts Recentes</h2>
+      <section class="posts">
+        <article class="posts-item">
           <h3>Dicas de HTML</h3>
           <img src="Imagens/Prog_HTML.jpg" alt="código escrito" />
-          <p>
-            Neste post vamos dar algumas dicas relacionadas ao HTML e essa
-            linguagem de Marcação tão presente na WEB
-          </p>
+          <div>
+            <p>
+              Neste post vamos dar algumas dicas relacionadas ao HTML e essa
+              linguagem de Marcação tão presente na WEB
+            </p>
+            <a href="/">Ver Mais</a>
+          </div>
         </article>
-      </a>
 
-      <a href="/">
-        <article class="post">
+        <article class="posts-item">
           <h3>10 ideias de projetos em JS</h3>
           <img src="Imagens/Prog.jpg" alt="código escrito em Java Script" />
-          <p>
-            Neste post vamos dar ideias de projetos para seu portifóleo de
-            programador que podem ser feitos com JavaScript
-          </p>
+          <div>
+            <p>
+              Neste post vamos dar ideias de projetos para seu portifóleo de
+              programador que podem ser feitos com JavaScript
+            </p>
+            <a href="/">Ver Mais</a>
+          </div>
         </article>
-      </a>
+      </section>
+
+      <h2 class="titulo">Cursos Recomendados</h2>
+      <section class="cursos">
+        <article class="cursos-item">
+          <img src="Imagens/html_e_css.jpg" alt="código em html e css" />
+          <h3>HTML e CSS Para Iniciantes</h3>
+          <p>
+            Este curso é para quem deseja entrar ou já está no mercado e
+            desenvolvimento Front End/criação de sites. Se você é um iniciante
+            terá a oportunidade de aprender do zero e para os que já trabalham
+            com web design/frontend é uma boa oportunidade para se
+            atualizar/aprender uma abordagem diferente.
+          </p>
+          <a href="/">Acessar Curso</a>
+        </article>
+
+        <article class="cursos-item">
+          <img src="Imagens/js.jpg" alt="código em html e css" />
+          <h3>JavaScript Completo ES6+</h3>
+          <p>
+            Neste curso você irá aprender tudo que é necessário para dominar o
+            JavaScript. O curso vai do básico ao avançado e ao final dele você
+            terá uma compreensão total da linguagem, dos seus principais métodos
+            e da sua sintaxe. O foco é no aprendizado da linguagem, mas o
+            principal local de aplicação será na web, através de manipulações do
+            DOM e requisições via Fetch API.
+          </p>
+          <a href="/">Acessar Curso</a>
+        </article>
+      </section>
     </main>
 
     <span>

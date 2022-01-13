@@ -1,7 +1,7 @@
 /* Estilos Gerais */
 body {
-  background-color: rgb(14, 13, 13);
-  font-family: monospace;
+  background-color: #0e0d0d;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 1.16rem;
   color: white;
   margin: 0;
@@ -12,6 +12,7 @@ h2,
 h3,
 p {
   margin: 0px;
+  padding: 0px;
 }
 
 ul {
@@ -34,7 +35,7 @@ a {
 /* Estilos Gerais */
 
 /* Menu de Navegação */
-#menu {
+.menu {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 5px 10px;
@@ -42,12 +43,16 @@ a {
   margin-bottom: 40px;
 }
 
-#logo_menu {
+.logo-menu {
+  justify-self: start;
+}
+
+.logo-menu img {
   height: 63px;
   grid-column: 1;
 }
 
-#links-menu {
+.links-menu {
   grid-column: 2;
   display: flex;
   gap: 40px;
@@ -57,33 +62,111 @@ nav {
   place-self: center end;
 }
 
-nav a {
+.links-menu a {
   color: #fff;
   border: 2px solid rgb(14, 13, 13);
   padding: 10px 15px;
 }
 
-nav a:hover {
+.links-menu a:hover {
   border-bottom: 2px solid #00c4cc;
 }
 /* Menu de Navegação */
 
 /* Conteúdo Principal da página */
-.principal {
+.titulo {
+  display: inline-block;
+  padding: 1rem 2rem;
+  margin-top: 70px;
+  border-bottom: 2px solid #00c4cc;
+  margin-bottom: 20px;
+}
+
+.posts {
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(2, 1fr);
   padding: 25px;
 }
 
-.post {
+.posts-item {
   display: grid;
-  gap: 10px;
-  height: 500px;
-  background-color: #fff;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  place-content: start;
+  background-color: #0e0d0d;
   padding: 20px;
+  color: #fff;
+  border: 2px solid #00c4cc;
+  border-radius: 15px;
+}
+
+.posts-item h3 {
+  grid-column: 1 / -1;
+  place-self: start center;
+}
+
+.posts-item img {
+  border-radius: 15px;
+  height: 200px;
+}
+
+.posts-item div {
+  display: grid;
+  gap: 20px;
+  place-content: start;
+}
+
+.posts-item a {
+  place-self: start;
+  background-color: #00c4cc;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+}
+
+.posts-item a:hover {
+  background-color: black;
   color: #00c4cc;
-  border-radius: 4px;
+  transition: 0.2s;
+}
+
+.cursos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 25px;
+}
+
+.cursos-item {
+  background-color: #0e0d0d;
+  border: 2px solid #00c4cc;
+  border-radius: 15px;
+  padding: 20px;
+  display: grid;
+  gap: 20px;
+}
+
+.cursos-item img {
+  border-radius: 15px;
+  height: 400px;
+}
+
+.cursos-item h3 {
+  padding: 0px 1rem;
+}
+
+.cursos-item a {
+  padding: 0.5rem 1.5rem;
+  border-radius: 15px;
+  background-color: #00c4cc;
+  color: #fff;
+}
+
+.cursos-item a:hover {
+  background-color: #000;
+  color: #00c4cc;
+  transition: 0.2s;
 }
 /* Conteúdo Principal da página */
 
