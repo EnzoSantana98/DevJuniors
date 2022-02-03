@@ -178,15 +178,3 @@ footer p {
   border-top: 1px solid rgb(20, 19, 19);
 }
 /* rodapé do site */
-
-/* Acesso ao chat no canto inferior direito */
-#logo_chat {
-  height: 70px;
-  border: 2px solid #ccd;
-  border-radius: 40px;
-  position: fixed;
-  bottom: 15px;
-  right: 15px;
-  z-index: 3;
-}
-/* Acesso ao chat no canto inferior direito */
