@@ -1,0 +1,165 @@
+/* seção posts */
+.posts {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 25px;
+}
+
+.posts-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  place-content: start;
+  background-color: #0e0d0d;
+  padding: 20px;
+  color: #fff;
+  border: 2px solid #00c4cc;
+  border-radius: 15px;
+}
+
+.posts-item h3 {
+  grid-column: 1 / -1;
+  place-self: start center;
+}
+
+.posts-item img {
+  border-radius: 15px;
+  height: 200px;
+}
+
+.posts-item div {
+  display: grid;
+  gap: 20px;
+  place-content: start;
+}
+
+.posts-item a {
+  place-self: start;
+  background-color: #00c4cc;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  border: 2px solid transparent;
+}
+
+.posts-item a:hover {
+  background-color: #000;
+  color: #00c4cc;
+  border: 2px solid #00c4cc;
+  transition: 0.2s;
+}
+/* seção posts */
+
+/* seção cursos */
+.cursos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 25px;
+}
+
+.cursos-item {
+  background-color: #0e0d0d;
+  border: 2px solid #00c4cc;
+  border-radius: 15px;
+  padding: 20px;
+  display: grid;
+  gap: 20px;
+}
+
+.cursos-item img {
+  border-radius: 15px;
+  height: 400px;
+}
+
+.cursos-item h3 {
+  padding: 0px 1rem;
+}
+
+.cursos-item a {
+  padding: 0.5rem 1.5rem;
+  border-radius: 15px;
+  background-color: #00c4cc;
+  color: #fff;
+  border: 2px solid transparent;
+}
+
+.cursos-item a:hover {
+  background-color: #000;
+  color: #00c4cc;
+  border: 2px solid #00c4cc;
+  transition: 0.2s;
+}
+/* seção cursos */
+
+/* seção comunidade*/
+.comunidade {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px 20px;
+  padding: 25px;
+  place-items: center;
+}
+
+.comunidade-titulo {
+  grid-column: 1 / -1;
+  justify-self: start;
+  font-size: 2.4rem;
+  border-left: 2px solid #00c4cc;
+  padding: 0 1rem;
+}
+
+.comunidade-botao {
+  font-size: 2rem;
+  background-color: #00c4cc;
+  color: #fff;
+  padding: 1.5rem 2.5rem;
+  border-radius: 30px;
+  border: 2px solid transparent;
+}
+
+.comunidade-botao:hover {
+  background-color: #000;
+  color: #00c4cc;
+  border: 2px solid #00c4cc;
+  transition: 0.2s;
+}
+/* seção comunidade*/
+
+/* seção jobs */
+.jobs {
+  background-color: #0e0d0d;
+  border: 2px solid #000;
+  border-radius: 30px;
+  text-align: center;
+  padding: 45px;
+  font-size: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.jobs-titulo {
+  padding: 0px 20px;
+  border-left: 2px solid #00c4cc;
+  border-right: 2px solid #00c4cc;
+  margin-bottom: 60px;
+}
+
+.jobs-botao {
+  font-size: 1.4rem;
+  background-color: #00c4cc;
+  color: #fff;
+  padding: 1rem 5rem;
+  border-radius: 30px;
+  border: 2px solid transparent;
+}
+
+.jobs-botao:hover {
+  background-color: #000;
+  color: #00c4cc;
+  border: 2px solid #00c4cc;
+  transition: 0.2s;
+}
+/* seção jobs */
