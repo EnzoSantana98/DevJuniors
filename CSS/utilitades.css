@@ -1,7 +1,26 @@
 .titulo {
   display: inline-block;
+  margin-top: 4.375rem;
+  margin-bottom: 1.25rem;
   padding: 1rem 2rem;
-  margin-top: 70px;
-  border-bottom: 2px solid #00c4cc;
-  margin-bottom: 20px;
+  border-bottom: 2px solid var(--cor-p1);
+}
+
+.titulo-article {
+  padding: 0rem 1rem;
+}
+
+.botao {
+  color: var(--cor-t1);
+  background-color: var(--cor-p1);
+  padding: 0.5rem 1rem;
+  border: 2px solid transparent;
+  border-radius: 0.937rem;
+}
+
+.botao:hover {
+  color: var(--cor-p1);
+  background-color: var(--cor-b2);
+  border: 2px solid var(--cor-p1);
+  transition: 0.2s;
 }

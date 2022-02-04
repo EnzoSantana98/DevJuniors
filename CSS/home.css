@@ -1,21 +1,19 @@
 /* seção posts */
 .posts {
   display: grid;
-  gap: 20px;
+  gap: 1.25rem;
   grid-template-columns: repeat(2, 1fr);
-  padding: 25px;
+  padding: 1.562rem;
 }
 
 .posts-item {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  gap: 1.25rem;
   place-content: start;
-  background-color: #0e0d0d;
-  padding: 20px;
-  color: #fff;
-  border: 2px solid #00c4cc;
-  border-radius: 15px;
+  padding: 1.25rem;
+  border: 2px solid var(--cor-p1);
+  border-radius: 0.937rem;
 }
 
 .posts-item h3 {
@@ -24,30 +22,18 @@
 }
 
 .posts-item img {
-  border-radius: 15px;
+  border-radius: 0.937rem;
   height: 200px;
 }
 
 .posts-item div {
   display: grid;
-  gap: 20px;
+  gap: 1.25rem;
   place-content: start;
 }
 
 .posts-item a {
   place-self: start;
-  background-color: #00c4cc;
-  color: #fff;
-  padding: 0.5rem 1rem;
-  border-radius: 15px;
-  border: 2px solid transparent;
-}
-
-.posts-item a:hover {
-  background-color: #000;
-  color: #00c4cc;
-  border: 2px solid #00c4cc;
-  transition: 0.2s;
 }
 /* seção posts */
 
@@ -55,41 +41,25 @@
 .cursos {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  padding: 25px;
+  gap: 1.25rem;
+  padding: 1.562rem;
 }
 
 .cursos-item {
-  background-color: #0e0d0d;
-  border: 2px solid #00c4cc;
-  border-radius: 15px;
-  padding: 20px;
+  border: 2px solid var(--cor-p1);
+  border-radius: 0.937rem;
+  padding: 1.25rem;
   display: grid;
-  gap: 20px;
+  gap: 1.25rem;
 }
 
 .cursos-item img {
-  border-radius: 15px;
+  border-radius: 0.937rem;
   height: 400px;
 }
 
-.cursos-item h3 {
-  padding: 0px 1rem;
-}
-
 .cursos-item a {
-  padding: 0.5rem 1.5rem;
-  border-radius: 15px;
-  background-color: #00c4cc;
-  color: #fff;
-  border: 2px solid transparent;
-}
-
-.cursos-item a:hover {
-  background-color: #000;
-  color: #00c4cc;
-  border: 2px solid #00c4cc;
-  transition: 0.2s;
+  align-self: flex-end;
 }
 /* seção cursos */
 
@@ -97,8 +67,8 @@
 .comunidade {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 80px 20px;
-  padding: 25px;
+  gap: 5rem 1.25rem;
+  padding: 1.562rem;
   place-items: center;
 }
 
@@ -106,60 +76,40 @@
   grid-column: 1 / -1;
   justify-self: start;
   font-size: 2.4rem;
-  border-left: 2px solid #00c4cc;
-  padding: 0 1rem;
+  border-left: 2px solid var(--cor-p1);
+  padding: 0rem 1rem;
 }
 
 .comunidade-botao {
   font-size: 2rem;
-  background-color: #00c4cc;
-  color: #fff;
   padding: 1.5rem 2.5rem;
-  border-radius: 30px;
-  border: 2px solid transparent;
-}
-
-.comunidade-botao:hover {
-  background-color: #000;
-  color: #00c4cc;
-  border: 2px solid #00c4cc;
-  transition: 0.2s;
+  border-radius: 1.875rem;
 }
 /* seção comunidade*/
 
 /* seção jobs */
 .jobs {
-  background-color: #0e0d0d;
-  border: 2px solid #000;
-  border-radius: 30px;
+  border: 2px solid var(--cor-p2);
+  border-radius: 1.875rem;
   text-align: center;
-  padding: 45px;
+  padding: 2.812rem;
   font-size: 2rem;
   max-width: 600px;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 1.875rem;
 }
 
 .jobs-titulo {
-  padding: 0px 20px;
-  border-left: 2px solid #00c4cc;
-  border-right: 2px solid #00c4cc;
-  margin-bottom: 60px;
+  font-size: 3rem;
+  padding: 0rem 1.25rem;
+  border-left: 2px solid var(--cor-p1);
+  border-right: 2px solid var(--cor-p1);
+  margin-bottom: 3.75rem;
 }
 
 .jobs-botao {
   font-size: 1.4rem;
-  background-color: #00c4cc;
-  color: #fff;
   padding: 1rem 5rem;
-  border-radius: 30px;
-  border: 2px solid transparent;
-}
-
-.jobs-botao:hover {
-  background-color: #000;
-  color: #00c4cc;
-  border: 2px solid #00c4cc;
-  transition: 0.2s;
+  border-radius: 1.875rem;
 }
 /* seção jobs */

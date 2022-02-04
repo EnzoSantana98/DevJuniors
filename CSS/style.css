@@ -1,5 +1,7 @@
 /* Estilos Gerais */
 @import url('global.css');
+@import url('tipografia.css');
+@import url('cores.css');
 @import url('utilitades.css');
 
 /* page home */

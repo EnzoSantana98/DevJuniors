@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <title>Dev Juniors</title>
     <link rel="stylesheet" href="CSS/style.css" />
+
+    <!-- link google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="menu">
@@ -13,62 +21,62 @@
 
       <nav aria-label="Primária">
         <ul class="links-menu">
-          <li><a href="/">Home</a></li>
-          <li><a href="/">Posts</a></li>
-          <li><a href="/">Cursos</a></li>
-          <li><a href="/">Comunidade</a></li>
-          <li><a href="/">Jobs</a></li>
+          <li><a class="cor-t1" href="/">Home</a></li>
+          <li><a class="cor-t1" href="/">Posts</a></li>
+          <li><a class="cor-t1" href="/">Cursos</a></li>
+          <li><a class="cor-t1" href="/">Comunidade</a></li>
+          <li><a class="cor-t1" href="/">Jobs</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <h2 class="titulo">Posts Recentes</h2>
+      <h2 class="titulo cor-t1">Posts Recentes</h2>
       <section class="posts" aria-label="Posts">
-        <article class="posts-item">
-          <h3>Dicas de HTML</h3>
+        <article class="posts-item cor-t1">
+          <h3 class="titulo-article cor-t2">Dicas de HTML</h3>
           <img src="Imagens/Prog_HTML.jpg" alt="código escrito" />
           <div>
-            <p>
+            <p class="paragrafo cor-t3">
               Neste post vamos dar algumas dicas relacionadas ao HTML e essa
               linguagem de Marcação tão presente na WEB
             </p>
-            <a href="/">Ver Mais</a>
+            <a class="botao" href="/">Ver Mais</a>
           </div>
         </article>
 
-        <article class="posts-item">
-          <h3>10 ideias de projetos em JS</h3>
+        <article class="posts-item cor-t1">
+          <h3 class="titulo-article cor-t2">10 ideias de projetos em JS</h3>
           <img src="Imagens/Prog.jpg" alt="código escrito em Java Script" />
           <div>
-            <p>
+            <p class="paragrafo cor-t3">
               Neste post vamos dar ideias de projetos para seu portifóleo de
               programador que podem ser feitos com JavaScript
             </p>
-            <a href="/">Ver Mais</a>
+            <a class="botao" href="/">Ver Mais</a>
           </div>
         </article>
       </section>
 
-      <h2 class="titulo">Cursos Recomendados</h2>
+      <h2 class="titulo cor-t1">Cursos Recomendados</h2>
       <section class="cursos" aria-label="Cursos">
         <article class="cursos-item">
           <img src="Imagens/html_e_css.jpg" alt="código em html e css" />
-          <h3>HTML e CSS Para Iniciantes</h3>
-          <p>
+          <h3 class="titulo-article cor-t2">HTML e CSS Para Iniciantes</h3>
+          <p class="paragrafo cor-t3">
             Este curso é para quem deseja entrar ou já está no mercado e
             desenvolvimento Front End/criação de sites. Se você é um iniciante
             terá a oportunidade de aprender do zero e para os que já trabalham
             com web design/frontend é uma boa oportunidade para se
             atualizar/aprender uma abordagem diferente.
           </p>
-          <a href="/">Acessar Curso</a>
+          <a class="botao" href="/">Acessar Curso</a>
         </article>
 
         <article class="cursos-item">
           <img src="Imagens/js.jpg" alt="código em html e css" />
-          <h3>JavaScript Completo ES6+</h3>
-          <p>
+          <h3 class="titulo-article cor-t2">JavaScript Completo ES6+</h3>
+          <p class="paragrafo cor-t3">
             Neste curso você irá aprender tudo que é necessário para dominar o
             JavaScript. O curso vai do básico ao avançado e ao final dele você
             terá uma compreensão total da linguagem, dos seus principais métodos
@@ -76,16 +84,16 @@
             principal local de aplicação será na web, através de manipulações do
             DOM e requisições via Fetch API.
           </p>
-          <a href="/">Acessar Curso</a>
+          <a class="botao" href="/">Acessar Curso</a>
         </article>
       </section>
 
-      <h2 class="titulo">Comunidade</h2>
+      <h2 class="titulo cor-t1">Comunidade</h2>
       <section class="comunidade" aria-label="comunidade">
-        <h3 class="comunidade-titulo">
+        <h3 class="titulo-article comunidade-titulo cor-t2">
           Precisa de Ajuda? Entre já na nossa comunidade
         </h3>
-        <a class="comunidade-botao" href="#">Entre na Comunidade!</a>
+        <a class="botao comunidade-botao" href="#">Entre na Comunidade!</a>
         <img
           class="comunidade-img"
           src="Imagens/logo_discord.svg"
@@ -93,17 +101,17 @@
         />
       </section>
 
-      <h2 class="titulo">Jobs</h2>
+      <h2 class="titulo cor-t1">Jobs</h2>
       <section class="jobs" aria-label="jobs">
-        <h3 class="jobs-titulo">
+        <h3 class="titulo-article jobs-titulo cor-t2">
           Consulte algumas vagas para a sua área na programação
         </h3>
-        <a class="jobs-botao" href="#">Ver Vagas</a>
+        <a class="botao jobs-botao" href="#">Ver Vagas</a>
       </section>
     </main>
 
     <footer>
-      <p>DevJuniors. Todos os direitos reservados.</p>
+      <p class="paragrafo cor-t3">DevJuniors. Todos os direitos reservados.</p>
     </footer>
   </body>
 </html>
