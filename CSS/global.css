@@ -48,7 +48,7 @@ header {
   justify-self: start;
 }
 
-.logo-menu img {
+.logo-menu svg {
   height: 63px;
   grid-column: 1;
 }
