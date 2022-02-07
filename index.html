@@ -16,30 +16,32 @@
     <link rel="icon" href="Imagens/favicon.svg" type="image/svg" />
   </head>
   <body>
-    <header class="menu">
-      <a class="logo-menu" href="index.html">
-        <img src="Imagens/logo.svg" alt="Logo Dev Juniors" />
-      </a>
+    <header>
+      <div class="menu">
+        <a class="logo-menu" href="index.html">
+          <img src="Imagens/logo.svg" alt="Logo Dev Juniors" />
+        </a>
 
-      <nav aria-label="Primária">
-        <ul class="links-menu">
-          <li><a class="cor-t1" href="/">Home</a></li>
-          <li><a class="cor-t1" href="/">Posts</a></li>
-          <li><a class="cor-t1" href="/">Cursos</a></li>
-          <li><a class="cor-t1" href="/">Comunidade</a></li>
-          <li><a class="cor-t1" href="/">Jobs</a></li>
-        </ul>
-      </nav>
+        <nav aria-label="Primária">
+          <ul class="links-menu">
+            <li><a class="cor-t6" href="/">Home</a></li>
+            <li><a class="cor-t6" href="/">Posts</a></li>
+            <li><a class="cor-t6" href="/">Cursos</a></li>
+            <li><a class="cor-t6" href="/">Comunidade</a></li>
+            <li><a class="cor-t6" href="/">Jobs</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main>
-      <h2 class="titulo cor-t1">Posts Recentes</h2>
+      <h2 class="titulo cor-t6">Posts Recentes</h2>
       <section class="posts" aria-label="Posts">
-        <article class="posts-item cor-t1">
-          <h3 class="titulo-article cor-t2">Dicas de HTML</h3>
+        <article class="posts-item">
+          <h3 class="titulo-article cor-t5">Dicas de HTML</h3>
           <img src="Imagens/Prog_HTML.jpg" alt="código escrito" />
           <div>
-            <p class="paragrafo cor-t3">
+            <p class="paragrafo cor-t4">
               Neste post vamos dar algumas dicas relacionadas ao HTML e essa
               linguagem de Marcação tão presente na WEB
             </p>
@@ -47,11 +49,11 @@
           </div>
         </article>
 
-        <article class="posts-item cor-t1">
-          <h3 class="titulo-article cor-t2">10 ideias de projetos em JS</h3>
+        <article class="posts-item">
+          <h3 class="titulo-article cor-t5">10 ideias de projetos em JS</h3>
           <img src="Imagens/Prog.jpg" alt="código escrito em Java Script" />
           <div>
-            <p class="paragrafo cor-t3">
+            <p class="paragrafo cor-t4">
               Neste post vamos dar ideias de projetos para seu portifóleo de
               programador que podem ser feitos com JavaScript
             </p>
@@ -60,12 +62,14 @@
         </article>
       </section>
 
-      <h2 class="titulo cor-t1">Cursos Recomendados</h2>
+      <h2 class="titulo cor-t6">Cursos Recomendados</h2>
       <section class="cursos" aria-label="Cursos">
         <article class="cursos-item">
           <img src="Imagens/html_e_css.jpg" alt="código em html e css" />
-          <h3 class="titulo-article cor-t2">HTML e CSS Para Iniciantes</h3>
-          <p class="paragrafo cor-t3">
+          <h3 class="titulo-article cor-t5 borda-left-2">
+            HTML e CSS Para Iniciantes
+          </h3>
+          <p class="paragrafo cor-t4">
             Este curso é para quem deseja entrar ou já está no mercado e
             desenvolvimento Front End/criação de sites. Se você é um iniciante
             terá a oportunidade de aprender do zero e para os que já trabalham
@@ -77,8 +81,10 @@
 
         <article class="cursos-item">
           <img src="Imagens/js.jpg" alt="código em html e css" />
-          <h3 class="titulo-article cor-t2">JavaScript Completo ES6+</h3>
-          <p class="paragrafo cor-t3">
+          <h3 class="titulo-article cor-t5 borda-left-2">
+            JavaScript Completo ES6+
+          </h3>
+          <p class="paragrafo cor-t4">
             Neste curso você irá aprender tudo que é necessário para dominar o
             JavaScript. O curso vai do básico ao avançado e ao final dele você
             terá uma compreensão total da linguagem, dos seus principais métodos
@@ -90,9 +96,9 @@
         </article>
       </section>
 
-      <h2 class="titulo cor-t1">Comunidade</h2>
+      <h2 class="titulo cor-t6">Comunidade</h2>
       <section class="comunidade" aria-label="comunidade">
-        <h3 class="titulo-article comunidade-titulo cor-t2">
+        <h3 class="titulo-article comunidade-titulo cor-t5">
           Precisa de Ajuda? Entre já na nossa comunidade
         </h3>
         <a class="botao comunidade-botao" href="#">Entre na Comunidade!</a>
@@ -103,9 +109,9 @@
         />
       </section>
 
-      <h2 class="titulo cor-t1">Jobs</h2>
+      <h2 class="titulo cor-t6">Jobs</h2>
       <section class="jobs" aria-label="jobs">
-        <h3 class="titulo-article jobs-titulo cor-t2">
+        <h3 class="titulo-article jobs-titulo cor-t5">
           Consulte algumas vagas para a sua área na programação
         </h3>
         <a class="botao jobs-botao" href="#">Ver Vagas</a>
@@ -113,7 +119,11 @@
     </main>
 
     <footer>
-      <p class="paragrafo cor-t3">DevJuniors. Todos os direitos reservados.</p>
+      <div class="rodape">
+        <p class="paragrafo cor-t6">
+          DevJuniors. Todos os direitos reservados.
+        </p>
+      </div>
     </footer>
   </body>
 </html>

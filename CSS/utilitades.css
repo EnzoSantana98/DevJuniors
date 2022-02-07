@@ -12,7 +12,7 @@
 
 .botao {
   color: var(--cor-t1);
-  background-color: var(--cor-p1);
+  background-color: var(--cor-p0);
   padding: 0.5rem 1rem;
   border: 2px solid transparent;
   border-radius: 0.937rem;
@@ -20,7 +20,15 @@
 
 .botao:hover {
   color: var(--cor-p1);
-  background-color: var(--cor-b2);
+  background-color: var(--cor-b3);
   border: 2px solid var(--cor-p1);
   transition: 0.2s;
+}
+
+.borda-left-1 {
+  border-left: 1px solid var(--cor-p1);
+}
+
+.borda-left-2 {
+  border-left: 2px solid var(--cor-p1);
 }

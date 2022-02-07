@@ -1,6 +1,6 @@
 /* css reset */
 body {
-  background-color: var(--cor-b3);
+  background-color: var(--cor-b1);
   margin: 0;
 }
 
@@ -32,11 +32,15 @@ a {
 /* css reset */
 
 /* header */
+header {
+  background-color: var(--cor-b4);
+  border-bottom: 1px solid var(--cor-p0);
+}
+
 .menu {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 0.312rem 0.625rem;
-  border-bottom: 1px solid var(--cor-p2);
   margin-bottom: 40px;
 }
 
@@ -66,13 +70,14 @@ nav {
 
 .links-menu a:hover {
   border-bottom: 2px solid var(--cor-p1);
+  transition: 0.5s;
 }
 /* header */
 
 /* container conteúdo */
 main,
-footer,
-header {
+.rodape,
+.menu {
   max-width: 1300px;
   margin: 0 auto;
 }
@@ -80,12 +85,16 @@ header {
 
 /* rodapé do site */
 footer {
-  border-top: 1px solid var(--cor-p2);
+  background-color: var(--cor-b4);
+  border-top: 1px solid var(--cor-p0);
   margin-top: 140px;
+}
+
+.rodape {
   padding: 1rem 2rem;
 }
 
-footer p {
+.rodape p {
   margin: 0 auto;
   text-align: center;
 }
