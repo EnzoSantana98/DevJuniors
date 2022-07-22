@@ -130,3 +130,74 @@
   border-radius: 1.875rem;
 }
 /* seção jobs */
+
+/* responsivo */
+@media (max-width: 900px) {
+  .posts, .cursos, .comunidade {
+    grid-template-columns: 1fr;
+    margin: 1rem;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .logo-menu {
+    align-self: center;
+    margin-bottom: 30px;
+  }
+  .logo-menu svg {
+    height: 63px;
+  }
+  .links-menu {
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    align-items: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .titulo {
+    font-size: 2rem;
+  }
+  
+  .titulo-article {
+    font-size: 1.7rem;
+  }
+  
+  .paragrafo {
+    font-size: 1rem;
+    line-height: 1;
+  }
+  
+  a {
+    font-size: .8rem;
+  }
+  
+  .botao {
+    font-size: .8rem;
+  }
+  .posts-item {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+  }
+  .posts-item h3::after {
+    width: 100%;
+    height: 2px;
+    margin: auto;
+  }
+  .posts-item a {
+    place-self: center;
+  }
+  .cursos-item img {
+    height: 200px;
+  }
+  .comunidade img {
+    display: none;
+  }
+}
