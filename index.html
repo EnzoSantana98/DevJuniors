@@ -41,11 +41,12 @@
 
         <nav aria-label="Primária">
           <ul class="links-menu">
-            <li><a class="cor-t6" href="/">Home</a></li>
-            <li><a class="cor-t6" href="/">Posts</a></li>
-            <li><a class="cor-t6" href="/">Cursos</a></li>
-            <li><a class="cor-t6" href="/">Comunidade</a></li>
-            <li><a class="cor-t6" href="/">Jobs</a></li>
+            <li><a class="cor-t6" href="index.html">Home</a></li>
+            <li><a class="cor-t6" href="posts/posts.html">Posts</a></li>
+            <li><a class="cor-t6" href="#cursos">Cursos</a></li>
+            <li><a class="cor-t6" href="#contato">Contato</a></li>
+            <!-- <li><a class="cor-t6" href="/">Comunidade</a></li>
+            <li><a class="cor-t6" href="/">Jobs</a></li> -->
           </ul>
         </nav>
       </div>
@@ -55,31 +56,35 @@
       <h2 class="titulo cor-t6">Posts Recentes</h2>
       <section class="posts" aria-label="Posts">
         <article class="posts-item">
-          <h3 class="titulo-article cor-t5">Dicas de HTML</h3>
-          <img src="Imagens/Prog_HTML.jpg" alt="código escrito" />
+          <h3 class="titulo-article cor-t5">Como ser um programador</h3>
+          <img
+            src="Imagens/Como virar um programador.png"
+            alt="código escrito"
+          />
           <div>
             <p class="paragrafo cor-t4">
-              Neste post vamos dar algumas dicas relacionadas ao HTML e essa
-              linguagem de Marcação tão presente na WEB
+              Começou a ver contúdos de programação, se interessou pela área,
+              mas não sabe como começar?? Neste post vamos mostrar um caminho
+              para se tornar um programador de fato.
             </p>
-            <a class="botao" href="/">Ver Mais</a>
+            <a class="botao" href="posts/post01.html">Ver Mais</a>
           </div>
         </article>
 
         <article class="posts-item">
-          <h3 class="titulo-article cor-t5">10 ideias de projetos em JS</h3>
+          <h3 class="titulo-article cor-t5">5 ideias de projetos em JS</h3>
           <img src="Imagens/Prog.jpg" alt="código escrito em Java Script" />
           <div>
             <p class="paragrafo cor-t4">
               Neste post vamos dar ideias de projetos para seu portifóleo de
               programador que podem ser feitos com JavaScript
             </p>
-            <a class="botao" href="/">Ver Mais</a>
+            <a class="botao" href="posts/post02.html">Ver Mais</a>
           </div>
         </article>
       </section>
 
-      <h2 class="titulo cor-t6">Cursos Recomendados</h2>
+      <h2 class="titulo cor-t6" id="cursos">Cursos Recomendados</h2>
       <section class="cursos" aria-label="Cursos">
         <article class="cursos-item">
           <img src="Imagens/html_e_css.jpg" alt="código em html e css" />
@@ -93,7 +98,11 @@
             com web design/frontend é uma boa oportunidade para se
             atualizar/aprender uma abordagem diferente.
           </p>
-          <a class="botao" href="/">Acessar Curso</a>
+          <a
+            class="botao"
+            href="https://www.origamid.com/curso/html-e-css-para-iniciantes/"
+            >Acessar Curso</a
+          >
         </article>
 
         <article class="cursos-item">
@@ -109,11 +118,32 @@
             principal local de aplicação será na web, através de manipulações do
             DOM e requisições via Fetch API.
           </p>
-          <a class="botao" href="/">Acessar Curso</a>
+          <a
+            class="botao"
+            href="https://www.origamid.com/curso/javascript-completo-es6/"
+            >Acessar Curso</a
+          >
         </article>
       </section>
 
-      <h2 class="titulo cor-t6">Comunidade</h2>
+      <h2 id="contato" class="titulo cor-t6">Contato</h2>
+      <section class="comunidade" aria-label="comunidade">
+        <h3 class="titulo-article comunidade-titulo cor-t5">
+          Quer ficar mais próximo da gente? Siga-nos no Instagram!!
+        </h3>
+        <a
+          class="botao comunidade-botao"
+          href="https://www.instagram.com/devjuniors_/"
+          >Siga a gente!</a
+        >
+        <img
+          class="comunidade-img"
+          src="Imagens/instagram-seeklogo.com.svg"
+          alt="logo do instagram"
+        />
+      </section>
+
+      <!-- <h2 class="titulo cor-t6">Comunidade</h2>
       <section class="comunidade" aria-label="comunidade">
         <h3 class="titulo-article comunidade-titulo cor-t5">
           Precisa de Ajuda? Entre já na nossa comunidade
@@ -132,7 +162,7 @@
           Consulte algumas vagas para a sua área na programação
         </h3>
         <a class="botao jobs-botao" href="#">Ver Vagas</a>
-      </section>
+      </section> -->
     </main>
 
     <footer>

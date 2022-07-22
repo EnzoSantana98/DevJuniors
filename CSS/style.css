@@ -6,3 +6,6 @@
 
 /* page home */
 @import url('home.css');
+
+/* posts */
+@import url('post.css');

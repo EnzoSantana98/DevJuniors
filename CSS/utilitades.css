@@ -20,7 +20,7 @@
 
 .botao:hover {
   color: var(--cor-p1);
-  background-color: var(--cor-b3);
+  background-color: var(--cor-b4);
   border: 2px solid var(--cor-p1);
   transition: 0.2s;
 }
